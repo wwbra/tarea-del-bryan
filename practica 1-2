@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: paleturquoise;
+		}
+		
+		#primera_seccion  {
+			margin: 10px;
+			border: 4px solid #45322e;
+			float: left;
+		} 
+		
+		#segunda_seccion  h3 {
+			list-style-type: circle;
+			color:white;
+			padding: 10px 10px;
+			background-color: brown;
+			float: right;
+			margin: 150px 700px 0px 10px;
+		}
+		#tercera_seccion h4 {
+			color: royalblue;
+			float: left;
+			margin: 30px 0px 0px 30px;
+		}
+
+			.subrayado{
+			text-decoration-line:underline ;
+			text-decoration-style:double ;
+		    }
+
+		
+		#cuarta_seccion {
+			list-style-type: lower-latin;
+			float: right;
+			color: maroon;
+			margin:10px 1050px 0px 0px;
+		}
+		#quinta_seccion{
+			color: yellowgreen;
+			float: left;
+			margin: 10px 1050px 0px 0px;
+		}
+		
+
+
+</style>
+</head>
+
+<body>
+	<div><img id="primera_seccion" width="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf9rbnH-0Y55NLvSWqP7nC1ewexsr7icfZmywWLVCHxN-GZpehxUgQcJh-5YhDNGqRKh8&usqp=CAU"></p>
+
+	<div id="segunda_seccion"><h3><li>aulaClic. Cursos de informática gratis</li></h3></div> 
+
+	<div id="tercera_seccion"><h4>La primera web en español sobre cursos de informática<span class="subrayado"> gratis</span> on-line.</h4></div>
+	
+
+	<div id="cuarta_seccion"> <p><strong>Cursos de aulaClic</strong>
+		<ol class="cuarta_seccion">
+			<li>Access 2016</li>
+			<li>Excel 2016</li>
+			<li>Internet</li>
+			<li>Windows</li>
+		</ol>
+		</p>
+
+			<p><strong>Cursos de colaboradores</strong>	
+			<ol class="cuarta_seccion">
+				<li>autoCAD 2015</li>
+				<li>Estadistica con Excel</li>
+				<li>Joomla</li>
+				
+		</ol>	
+		</p>
+		</div>
+		<div id="quinta_seccion">
+			<p><a href="https://www.aulaclic.es/articulos/facebook.html">Siguenos en Facebook</a></p></div>
+
+
+</body>
+</html>
